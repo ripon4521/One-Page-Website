@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+}
+.head-container ul {
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+   
+}
+.head-container ul li{
+   
+    background: gold;
+    color: black;
+    /* border: 2px solid rgb(189, 221, 4); */
+    margin-right: 20px;
+    padding:8px 30px 8px 0px;
+    border-radius: 5px;
+
+   
+}
+.head-container ul a{
+    margin-right: 40px;
+   
+    
+}
+.logo img{
+    width: 150px;
+    margin-right: 600px;
+    cursor: pointer;
+}
+.head-container{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.head-container ul li:hover{
+    
+   background: rgb(138, 204, 14);
+   color: aliceblue;
+}
+
+/* main section  */
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.body-photo img{
+    width:600px;
+    height: 720px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.body-info {
+    /* margin-right: 300px; */
+    margin-bottom: 100px;
+}
+.body-info h3{
+    font-size: 20px;
+}
+.body-info h1{
+    font-size: 40px;
+}
+span{
+    color: gold;
+}
+.body-info p{
+    color: rgb(104, 62, 14);
+}
+
+button{
+    border: none;
+    font-size: 20px;
+    background: gold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: white;
+}
